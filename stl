@@ -17,6 +17,10 @@ int main()
     cout<<endl;
     a.push_back(200);
     a.push_back(23);
+     for(int &x:a)
+    {
+        x+=2;
+    }
     for(int x:a)
     {
         cout<<x<<" ";
@@ -27,14 +31,5 @@ int main()
     */
     auto it=lower_bound(a.begin(),a.end(),22);
     cout<<endl<<*it;
-    for(int &d:q)
-    {
-        d+=2;
-    }
-     for(int d:q)
-    {
-        cout<<q<<" ";
-    }
-
     return 0;
 }
