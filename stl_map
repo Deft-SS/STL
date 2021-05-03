@@ -17,3 +17,45 @@ int main()
    
     return 0;
 } 
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void print(map<int,string> &a){
+    cout<<a.size()<<endl;
+     for(auto &pr : a){                                 //O(nlog(n))
+        cout<<pr.first<<" "<<pr.second<<"\n";
+    }
+}
+
+int main()
+{
+    map<int,string> a;
+    a[1]="Naveen";                    //O(log(n))
+    a[16]="Na";
+    a[13]="Nav";
+    a[2]="N";
+   /* map<int,string>:: iterator it;
+    for(it=a.begin();it!=a.end();it++){
+        cout<<(*it).first<<" "<<(*it).second<<"\n";
+    }
+    */
+    a[3];
+    a[13]="SINGROHA";
+    auto it = a.find(13);             //O(log(n))
+   /* if(it==a.end()){
+        cout<<"no value"<<"\n";
+    }
+    else{
+        cout<<(*it).first<<" "<<(*it).second<<"\n";
+    }
+    */
+    a.erase(16);
+    a.clear();
+    print(a);
+
+   
+    
+    return 0;
+}
