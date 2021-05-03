@@ -22,7 +22,7 @@ int main()
 #include <bits/stdc++.h>
 using namespace std;
 
-void print(map<int,string> &a){                                //trees are used in map & hashing is used in unordered map.
+void print(map<int,string> &a){                                //trees are used in map & hash tables are used in unordered map.
     cout<<a.size()<<endl;
      for(auto &pr : a){                                 //O(nlog(n))
         cout<<pr.first<<" "<<pr.second<<"\n";
