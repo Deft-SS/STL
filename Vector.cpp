@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-   /* vector<int> v;
+    vector<int> v;
     v.push_back(1);
     v.push_back(2);
     v.push_back(3);
@@ -33,7 +33,13 @@ int main()
         cout<<*it<<" ";
     }
     cout<<endl;
-    */
+    
+    swap(v3,v);
+     vector<int>::iterator i;
+    for(i=v3.begin();i!=v3.end();i++){
+        cout<<*i<<" ";
+    }
+    
     vector<int> v4;
     v4.push_back(11);
     v4.push_back(22);
