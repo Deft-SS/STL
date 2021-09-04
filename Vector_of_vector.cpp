@@ -26,6 +26,9 @@ int main()
         }
         v.push_back(temp);
     }
+    
+    v[0].push_back(10);
+    v[2].pop_back();
     for(int i=0;i<n;i++){
         print(v[i]);
     }
