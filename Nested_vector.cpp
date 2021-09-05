@@ -25,7 +25,7 @@ int main()
         }
     }
     for(int i=0;i<n;i++){
-        print(v[i]);
+        print(v[i]) ;
     }
 
     return 0;
