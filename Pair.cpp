@@ -27,7 +27,7 @@ int main()
    // cout<<p1.first<<" "<<p1.second<<endl;
 
      swap(p1,p2);
-    cout<<p1.first<<" "<<p1.second<<endl;
+    cout<<p1.first<<" "<<p1.second<<endl ;
 
     return 0;
 }
