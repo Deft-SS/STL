@@ -33,5 +33,5 @@ int main()
         print(v[i]);
     }
 
-    return 0;
+    return 0 ;
 }
