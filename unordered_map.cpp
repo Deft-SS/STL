@@ -10,7 +10,7 @@ int main()
     a[3];
     a[13]="SINGROHA";
     for(auto &it : a){
-        cout<<it.first<<" "<<it.second<<"\n";
+        cout<<it.first<<" "<<it.second<<"\n" ;
     }
     
     return 0;
