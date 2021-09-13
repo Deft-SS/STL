@@ -4,7 +4,7 @@ using namespace std;
 void print(vector<int> &p){
     cout<<"size is:"<<p.size()<<" ";
     for(int i=0;i<p.size();i++){
-        cout<<p[i]<<" " ;
+        cout<<p[i]<<" ";
     }
     cout<<endl;
     return;
@@ -33,5 +33,5 @@ int main()
         print(v[i]);
     }
 
-    return 0 ;
+    return 0;
 }
