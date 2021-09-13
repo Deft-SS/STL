@@ -30,6 +30,6 @@ int main()
     cout<<endl<<*it<<" "<<*it2;
     */
     auto it=lower_bound(a.begin(),a.end(),22);
-    cout<<endl<<*it;
+    cout<<endl<< *it;
     return 0;
 }
