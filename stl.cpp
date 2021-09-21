@@ -31,5 +31,5 @@ int main()
     */
     auto it=lower_bound(a.begin(),a.end(),22);
     cout<<endl<< *it;
-    return 0 ;
+    return 0;
 }
